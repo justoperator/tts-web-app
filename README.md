@@ -54,19 +54,6 @@ This is a simple Text-to-Speech (TTS) web application built using Flask and Edge
 
 To avoid storing sensitive data in the code, make sure to use environment variables where necessary (e.g., for API keys or deployment settings).
 
-## Deployment
-
-If you plan to deploy this application to services like **Koyeb** using a GitHub repository, follow these steps:
-
-1. **Make the repository public** (optional):  
-   This can be useful for portfolio purposes, but make sure to keep sensitive information out of the public repository (such as API keys, database credentials, etc.).
-
-2. **Configure Environment Variables**:  
-   Set up environment variables (such as API tokens) via the platform's dashboard (e.g., Koyeb) instead of hardcoding them.
-
-3. **Deployment command**:  
-   If using a service like Koyeb, simply link your GitHub repository and the platform will handle the deployment based on your code and configurations.
-
 ## Notes
 
 - Ensure that the directory `static/audio/` exists, as this is where generated audio files are saved.
