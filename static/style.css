@@ -121,7 +121,7 @@ select {
     background-color: #333;
     color: #fff;
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
-    appearance: none; /* Remove default arrow */
+    appearance: none;
     background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="white" width="16px" height="16px"%3E%3Cpath d="M5.5 7l4.5 4.5L14.5 7z"/%3E%3C/svg%3E');
     background-repeat: no-repeat;
     background-position: right 10px center;
