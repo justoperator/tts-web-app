@@ -52,13 +52,4 @@ This is a simple Text-to-Speech (TTS) web application built using Flask and Edge
 
 ## Notes
 
-- Ensure that the directory `static/audio/` exists, as this is where generated audio files are saved.
 - Old audio files are automatically deleted after 30 seconds to save space on the server.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contributing
-
-Feel free to open issues or pull requests if you find any bugs or want to improve the application.
