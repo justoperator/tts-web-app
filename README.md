@@ -50,10 +50,6 @@ This is a simple Text-to-Speech (TTS) web application built using Flask and Edge
 - `static/script.js`: JavaScript file for client-side interaction, including text input, button handling, and audio player functionality.
 - `static/audio/`: Directory for storing synthesized audio files.
 
-## Environment Variables
-
-To avoid storing sensitive data in the code, make sure to use environment variables where necessary (e.g., for API keys or deployment settings).
-
 ## Notes
 
 - Ensure that the directory `static/audio/` exists, as this is where generated audio files are saved.
